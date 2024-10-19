@@ -1,0 +1,181 @@
+/* Estilo general */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: rgba(50, 50, 50, 0.7);
+    /* Fondo semitransparente gris oscuro */
+    color: #fff;
+    border-bottom: 2px solid #d4af37;
+    /* Línea inferior dorada */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: #d4af37;
+}
+
+/* Carrusel */
+.carousel-item {
+    height: 600px;
+    /* Ajustar altura */
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Encabezados */
+h1 {color: #d4af37;}
+h2,
+h3 {
+    color: #333;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #b8912f;
+    border-color: #b8912f;
+}
+
+/* Espaciado y Bordes */
+.container {
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #d4af37;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos personalizados para la página de Petra */
+.curiosidades {
+    list-style: none;
+    padding: 0;
+}
+
+.curiosidades li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.curiosidades li:before {
+    content: '✓';
+    /* Marcador de verificación */
+    position: absolute;
+    left: 0;
+    color: #d4af37;
+    /* Color dorado */
+}
+
+.consejos {
+    list-style: none;
+    padding: 0;
+}
+
+.consejos li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.consejos li:before {
+    content: '💡';
+    /* Icono de bombilla */
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    /* Color azul */
+}
+
+.datos-importantes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.datos-importantes li {
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    border: 1px solid #d4af37;
+    /* Borde dorado */
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Estilo personalizado para el acordeón */
+.accordion-button {
+    background-color: white;
+    /* Color de fondo normal */
+    color: #000;
+    /* Color de texto normal */
+    border: none;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d4af37;
+    /* Color dorado para selección activa */
+    color: white;
+    /* Texto blanco para contraste */
+    border-color: #d4af37;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    /* Eliminar borde al enfocarse */
+}
+.alert-gold {
+    background-color: #d4af37; /* Fondo dorado */
+    color: white; /* Texto blanco */
+    border: 1px solid #b8912f; /* Borde dorado oscuro */
+}
+
+.alert-gold .alert-heading {
+    font-weight: bold;
+}
+
+.alert-gold a {
+    color: #fff; /* Texto de los enlaces en blanco */
+    text-decoration: underline;
+}
+
+.alert-gold a:hover {
+    color: #b8912f; /* Enlaces en dorado oscuro al pasar el cursor */
+}

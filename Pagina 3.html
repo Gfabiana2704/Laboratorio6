@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petra - Las 7 Maravillas del Mundo</title>
+    <!-- Enlace a Bootstrap CSS actualizado -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="Pagina 2.html">Petra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Pagina 1.html">Gran Muralla China</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Pagina 2.html">Coliseo</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Pagina 3.html">Petra</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel de imágenes -->
+    <div id="petraCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="petra1.jpg" class="d-block w-100" alt="El Tesoro de Petra">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>El Tesoro</h5>
+                    <p>Famosa fachada tallada en la roca.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="petra2.jpg" class="d-block w-100" alt="Fachadas de Petra">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fachadas de Petra</h5>
+                    <p>Edificaciones que cuentan la historia de una civilización.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="petra3.jpg" class="d-block w-100" alt="Caminos de Petra">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Caminos Antiguos</h5>
+                    <p>Caminos que conectan la ciudad perdida.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#petraCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#petraCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Sección de descripción general -->
+    <div class="container">
+        <h1 class="text-center mb-4">La Ciudad Perdida de Petra</h1>
+        <p class="text-justify">
+            Petra, conocida como la "Ciudad Rosa" por el color de sus piedras, es una antigua ciudad nabatea situada en
+            Jordania. Fundada en el siglo IV a.C., fue un importante centro de comercio y se caracteriza por sus
+            impresionantes edificaciones talladas en acantilados de arenisca. Fue redescubierta en 1812 por el
+            explorador suizo Johann Ludwig Burckhardt y es considerada una de las nuevas siete maravillas del mundo.
+        </p>
+        <!-- Alerta Dorada 1 -->
+        <div class="alert alert-gold alert-dismissible fade show" role="alert">
+            <h4 class="alert-heading">¡Petra: Maravilla del Mundo!</h4>
+            <p>
+                Petra, ubicada en Jordania, es conocida por su arquitectura tallada en roca y su impresionante sistema
+                de acueductos.
+                Se la considera una de las Nuevas Siete Maravillas del Mundo y un sitio de importancia cultural e
+                histórica.
+            </p>
+            <hr>
+            <p class="mb-0">
+                <a href="https://es.wikipedia.org/wiki/Petra" target="_blank">Aprende más sobre Petra</a>
+            </p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Alerta Dorada 2 -->
+        <div class="alert alert-gold alert-dismissible fade show" role="alert">
+            <h4 class="alert-heading">Una Ciudad Tallada en Roca</h4>
+            <p>
+                Conocida como la "Ciudad Rosa", Petra es famosa por sus fachadas talladas directamente en las paredes de
+                arenisca.
+                Uno de los más icónicos es el Tesoro de Petra, que atrae turistas de todo el mundo.
+            </p>
+            <hr>
+            <p class="mb-0">
+                Descubre las maravillas ocultas de Petra explorando sus rincones menos conocidos.
+            </p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+<!-- Sección de curiosidades centrada -->
+<div class="my-5 text-center">
+    <h2>Curiosidades sobre Petra</h2>
+    <ul class="curiosidades list-unstyled d-inline-block text-start">
+        <li>La ciudad fue un próspero centro de comercio en el mundo antiguo.</li>
+        <li>El Siq, un estrecho cañón, es la entrada principal a Petra.</li>
+        <li>Petra tiene más de 800 monumentos, incluyendo templos, tumbas y teatros.</li>
+        <li>El sistema de canalización de agua fue una obra maestra de la ingeniería antigua.</li>
+        <li>Petra es un Patrimonio de la Humanidad de la UNESCO desde 1985.</li>
+    </ul>
+</div>
+
+    <!-- Enlace a Bootstrap JS actualizado -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
